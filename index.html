@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="page-view">
+
+<!--  Navigation Section -->
+
+        <nav>
+            <div class="left-navigation">
+                <img id="logo" src="images/LightPinkNSLogo.png">
+            </div>
+            <div class="right-navigation">
+                <div class="nav-item">HOME</div>
+                <div class="nav-item">CASE STUDIES</div>
+                <div class="nav-item">ABOUT ME</div>
+                <div class="nav-item">RESUME</div>
+                <div class="nav-item">CONTACT</div>
+            </div>
+        </nav>
+
+<!--  Hero Section -->
+
+        <div id="background-logo-left-container">
+            <img src="images/background-logo.png" id="background-logo-left">
+        </div>
+        <div id="background-logo-right-container">
+            <img src="images/background-logo.png" id="background-logo-right">
+        </div>
+        <div id="hero-section">
+            <h1>Kellie Enge</h1>
+            <h4>A product designer that <span class="highlight-word">anticipates</span> and <span class="highlight-word">fulfills</span>
+                <br>user-centered problems with user-centered solutions.</h4>
+            <div id="button-container">
+                <button type="button">GET IN TOUCH</button>
+                <button type="button">VIEW MY RESUME</button>
+            </div>
+        </div>
+
+<!--  My Work section coded using CSS flex -->
+
+        <div id="case-study-view">
+            <div class="header">
+                <div class="number-header">01</div>
+                <div class="title-header">Case Studies</div>
+            </div>
+            <div id="case-study-container">
+                <div class="case-study-one">
+                    <div class="img-container">
+                        <img src="images/FF.png">
+                    </div>
+                    <div class="text-container">
+                        <h3>01 Foodie Friends</h3>
+                        <h5>Mobile App Case Study</h5>
+                        <button type="button">READ MORE</button>
+                    </div>
+                </div>
+                <div class="case-study-two">
+                    <div class="img-container">
+                        <img src="images/BFK.png">
+                    </div>
+                    <div class="text-container">
+                        <h3>02 Books For Keeps</h3>
+                        <h5>Non-Profit Redesign UX/UI Case Study</h5>
+                        <button type="button">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--  My UX Skills section coded using CSS flex -->
+        <div id="my-skills-view">
+            <div class="header">
+                <div class="title-header">My Skills</div>
+            </div>
+            <div id="my-skills-container">
+                <div class="skill-box">User Research <br> & Testing</div>
+                <div class="skill-box">Prototyping</div>
+                <div class="skill-box">Wireframing</div>
+                <div class="skill-box">Information <br> Architecture</div>
+                <div class="skill-box">Visual Design</div>
+            </div>
+        </div>
+        
+        <!--  About Me Section -->
+
+        <div id="about-me-view">
+            <div class="header">
+                <div class="number-header">03</div>
+                <div class="title-header">About Me</div>
+            </div>
+            <div class="body">
+                <div id="about-me-container">
+                    <div class="left-container">
+                        <h3>Hi, I'm Kellie Enge</h3>
+                        <div class="body-paragraph">Here’s my story.<br><br>After completing a degree in Music Education,
+                            <br>I reflected on what I loved most about teaching.<br>I came to the realization that I loved finding what
+                            <br>children enjoyed and allowing them the chance to<br>grow that spark. Searching for the whys for
+                            <br>a child’s behavior and successes.</div>
+                        <div class="body-paragraph">(Keep reading, this is where it gets good.)</div>
+                        <button type="button">KEEP READING</button>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/aboutmeimage.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Get In Touch Section -->
+
+        <div id="get-in-touch-view">
+            <div class="header">
+                <div class="number-header">04</div>
+                <div class="title-header">Get In Touch</div>
+            </div>
+            <div class="body">
+                <div id="get-in-touch-container">
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/kellie-enge-b89092197/" target="_blank">
+                            <img src="images/linkedinicon.png">
+                        </a>
+                        <a href="https://dribbble.com/Kenge" target="_blank">
+                            <img src="images/dribbbleicon.png">
+                        </a>
+                        <a href="https://www.behance.net/kellieshaw/" target="_blank">
+                            <img src="images/igicon.png">
+                        </a>
+                    </div>
+                    <div class="contact">
+                        <form>
+                        <div class="contact-form">
+                        
+                            <div class="form-group form-name">
+                                <label for="formGroupExampleInput">NAME</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput">
+                              </div>
+                            <div class="form-group form-email">
+                              <label for="exampleFormControlInput1">EMAIL</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div class="form-group form-message">
+                              <label for="exampleFormControlTextarea1">MESSAGE</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                          
+                        </div>
+                    </form>
+                        <button type="button">SEND EMAIL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <ul>
+        <li>WORK</li>
+        <li>ABOUT US</li>
+        <li>RESUME</li>
+        <li>CONTACT</li>
+    </ul>
+    <div id="bottom-tag">2020 Kellie Enge. ALL RIGHTS RESERVED.</div>
+</footer>
+
+</html>

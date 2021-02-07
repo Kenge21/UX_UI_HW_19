@@ -1,0 +1,594 @@
+@font-face {
+    font-family: 'Okta Neue Normal';
+    src: local('Okta Neue Normal'), url('Groteskly Yours  Okta Neue Normal.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Okta Neue Normal Italic';
+    src: local('Okta Neue Normal Italic'), url('Groteskly Yours  Okta Neue Normal Italic.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Okta Neue Light';
+    src: local('Okta Neue Light'), url('Groteskly Yours  Okta Neue Light.woff') format('woff');
+    }
+         
+ @font-face {
+     font-family: 'Okta Neue Medium';
+     src: local('Okta Neue Medium'), url('Groteskly Yours  Okta Neue Medium.woff') format('woff');
+    }
+
+ @font-face {
+    font-family: 'Okta Neue SemiBold';
+    src: local('Okta Neue SemiBold'), url('Groteskly Yours  Okta Neue SemiBold.woff') format('woff');
+    }
+
+ @font-face {
+    font-family: 'Okta Neue Light Italic';
+    src: local('Okta Neue Light Italic'), url('Groteskly Yours  Okta Neue Light Italic.woff') format('woff');
+    }
+
+    h1 {
+        font-size: 150px;
+        color: #29363b;
+        font-family: 'NewYork';
+        font-weight: 100;
+        line-height: 209px;
+        letter-spacing: 20px;
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 150px;
+        color: #29363b;
+        font-family: 'NewYork';
+        font-weight: 100;
+        line-height: 24px;
+        letter-spacing: 20px;
+    }
+    
+    h3 {
+        font-size: 24px;
+        color: #29363b;
+        font-family: 'Okta Neue Medium';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 25px;
+    }
+    
+    h4 {
+        font-size: 18px;
+        color: #29363b;
+        font-family: 'Okta Neue Normal';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 39px;
+        margin: 4px 0;
+    }
+    
+    h5 {
+        font-size: 18px;
+        color: #29363b;
+        font-family: 'Okta Neue Light Italic';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 25px;
+    }
+    
+    p {
+        font-size: 18px;
+        color: #29363b;
+        font-family: 'Okta Neue Normal';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 25px;
+    }
+
+    .text-highlight {
+        font-size: 18px;
+        color: #29363b;
+        font-family: 'Okta Neue Light Italic';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 39px;
+        margin: 4px 0;
+    }
+
+/* Navigation Below */ 
+
+.left-navigation {
+    float: left;
+}
+
+.right-navigation {
+    float: right;
+}
+
+#logo {
+    height: 60px;
+}
+
+nav {
+    width: 100%;
+    float: right;
+}
+
+.nav-item {
+    color: #29363b;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    width: 120px;
+    font-size: 14px;
+    font-family: 'Okta Neue Normal';
+    padding: 17px 0px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+/* Button Elements Below */ 
+
+button {
+    background-color: #CC884B;
+    color: white;
+    font-family: 'Okta Neue SemiBold';
+    font-weight: 100;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: white;
+    color: #cc884b;
+    font-family: 'Okta Neue SemiBold';
+    font-weight: 100;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+    border: solid;
+    border-color:#CC884B;
+    border-width: 2px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+
+#button-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+#button-container button {
+    margin-right: 30px;
+}
+
+/* Body Elements Below */ 
+
+body {
+    font-weight: 100;
+    font-style: normal;
+}
+
+#page-view {
+    height: 98%;
+    width: 94%;
+    padding: 1% 3%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Hero Section Below */ 
+
+#background-logo-left {
+    height: 900px;
+}
+
+#background-logo-right {
+    height: 600px;
+}
+
+#background-logo-left-container {
+    position: absolute;
+    height: 900px;
+    top: 120px;
+    left: -100px;
+    right: auto;
+    bottom: auto;
+    z-index: -1;
+    opacity: .25;
+    overflow: hidden;
+}
+
+#background-logo-right-container {
+    position: absolute;
+    height: 600px;
+    top: 100px;
+    left: auto;
+    right: -300px;
+    bottom: auto;
+    z-index: -1;
+    opacity: .25;
+    overflow: hidden;
+}
+
+#hero-section {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.highlight-word {
+    font-size: 18px;
+    color: #d9a28a;
+    font-family: 'Okta Neue Normal Italic';
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    line-height: 39px;
+    margin: 4px 0;
+}
+/* Case Study CSS-Grid Below */ 
+
+#case-study-view {
+    height: auto;
+    margin-top: 500px;
+    display: grid;
+}
+
+#case-study-view .header {
+    padding-left: 25px;
+}
+
+.number-header {
+    font-size: 365px;
+    color: #f4e3d1;
+    font-weight: 100;
+    font-family: 'NewYork';
+    z-index: -1;
+    opacity: .5;
+    position: absolute;
+}
+
+.title-header {
+    font-size: 100px;
+    font-family: 'NewYork';
+    font-weight: 100;
+    color: #29363b;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 110px;
+}
+
+.header {
+    height: 420px;
+    padding-bottom: 50px;
+}
+
+#case-study-container {
+    padding: 0px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "case-study-one case-study-two";
+}
+
+.case-study-one {
+    grid-area: case-study-one;
+    width: 560px;
+}
+
+.case-study-one .img-container {
+    height: 700px;
+    width: 560px;
+}
+
+.case-study-one .img-container img {
+    height: 700px;
+}
+
+.case-study-one .text-container {
+    padding: 0 20px;
+}
+
+.case-study-two {
+    grid-area: case-study-two;
+    width: 560px;
+}
+
+.case-study-two .img-container {
+    height: 700px;
+    width: 560px;
+}
+
+.case-study-two .img-container img {
+    height: 700px;
+}
+
+.case-study-two .text-container {
+    padding: 0 20px;
+}
+
+/* My Skills CSS-Flex Below */ 
+
+#my-skills-view {
+    height: auto;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+#my-skills-view .header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-skills-view .title-header {
+    font-size: 48px;
+    font-family: 'NewYork';
+    font-weight: 100;
+    color: #29363b;
+    letter-spacing: 5px;
+    margin-top: 120px;
+    margin-left: 0px;
+}
+
+#my-skills-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.skill-box {
+    background-color: #29363B;
+    color: #F4E3D1;
+    font-family: 'Okta Neue Light Italic';
+    font-size: 15px;
+    width: 225px;
+    height: 60px;
+    border: none;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 18px;
+    text-align: center;
+}
+
+#my-skills-container .skill-box {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/* About Me */ 
+
+#about-me-view {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#about-me-view .header .number-header {
+    left: auto;
+    right: 10%;
+}
+
+#about-me-view .header .title-header {
+    left: auto;
+    right: 17%;
+}
+
+#about-me-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body-paragraph {
+    font-size: 18px;
+    font-family: 'Okta Neue Light';
+    font-weight: 100;
+    color: #29363b;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#about-me-container .img-container {
+    height: 700px;
+    width: 560px;
+}
+
+#about-me-container .img-container img {
+    height: 700px;
+}
+
+#about-me-container .left-container {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* Get in Touch View */ 
+
+#get-in-touch-view {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#get-in-touch-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.social {
+    border-color: #9b431d;
+    border-width: 1px;
+    border-style: solid;
+    padding: 40px;
+    font-family: 'NewYork';
+    font-size: 48px;
+    color: #29363b;
+    font-weight: 100;
+    width: 200px;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social img {
+    width: 75px;
+}
+
+.contact {
+    border-color: #9b431d;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    padding: 50px 200px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-areas:
+    "name email"
+    "message message";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contact .form-name .form-email .form-message {
+    color: #9B431D;
+    font-family: 'Okta Neue Semibold';
+    font-size: 22px;
+}
+
+.form-name {
+    grid-area: name;
+    margin: 0 10px;
+}
+
+.form-email {
+    grid-area: email;
+    margin: 0 10px;
+}
+
+.form-message {
+    grid-area: message;
+    margin: 0 10px;
+    resize: none;
+}
+
+.form-message textarea {
+    resize: none;
+}
+
+.form-group textarea, input{
+    background-color: #F4E3D1 !important;
+    font-family: 'Okta Neue Semibold';
+    font-size: 14px;
+    color: #9B431D;
+    font-weight: 100;
+    width: 100%;
+    border: none !important;
+    border-radius: 0% !important;
+    height: 50px;
+}
+
+.form-group label {
+    font-family: 'Okta Neue Normal';
+    font-size: 12px;
+    color: #9B431D;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.contact button {
+    margin: 10px;
+}
+/* Footer CSS Below */ 
+
+footer {
+    background-color: #29363b;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    margin-top: 200px;
+}
+
+li {
+    color: white;
+    font-family: 'Okta Neue Normal';
+    font-size: 18px;
+    list-style-type: none;
+    text-align: left;
+}
+
+ul {
+    position: absolute;
+}
+
+#bottom-tag {
+    font-size: 18px;
+    color: white;
+    font-family: 'Okta Neue Light Italic';
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+/* Mobile Media Query */ 
+
+@media only screen and (max-width: 600px) { 
+    #my-skills-view {
+        width: 100%;
+    }
+
+    #my-skills-container {
+        flex-direction: column;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    #my-skills-container .skill-box {
+        margin-bottom: 20px;
+    }
+
+    #case-study-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "case-study-one"
+          "case-study-two";
+        row-gap: 50px;
+    }
+
+    nav {
+        width: 100%;
+    }
+}
+/* js UI Animation 1 */  
