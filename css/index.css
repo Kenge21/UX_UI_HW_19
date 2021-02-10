@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Okta Neue Normal';
-    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Normal.woff format') format('woff');
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Normal.woff') format('woff');
     }
 
 @font-face {
@@ -30,7 +30,7 @@
 
 @font-face {
     font-family: 'NewYork';
-    src: url('../fonts/NewYork.otf') format('otf');
+    src: url('../fonts/NewYork.otf') format('opentype');
     }
     
 
