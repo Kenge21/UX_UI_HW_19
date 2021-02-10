@@ -1,32 +1,38 @@
 @font-face {
     font-family: 'Okta Neue Normal';
-    src: local('Okta Neue Normal'), url('Groteskly Yours  Okta Neue Normal.woff') format('woff');
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Normal.woff format') format('woff');
     }
 
 @font-face {
     font-family: 'Okta Neue Normal Italic';
-    src: local('Okta Neue Normal Italic'), url('Groteskly Yours  Okta Neue Normal Italic.woff') format('woff');
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Normal\ Italic.woff') format('woff');
     }
 
 @font-face {
     font-family: 'Okta Neue Light';
-    src: local('Okta Neue Light'), url('Groteskly Yours  Okta Neue Light.woff') format('woff');
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Light.woff') format('woff');
     }
          
  @font-face {
      font-family: 'Okta Neue Medium';
-     src: local('Okta Neue Medium'), url('Groteskly Yours  Okta Neue Medium.woff') format('woff');
+     src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Medium.woff') format('woff');
     }
 
  @font-face {
     font-family: 'Okta Neue SemiBold';
-    src: local('Okta Neue SemiBold'), url('Groteskly Yours  Okta Neue SemiBold.woff') format('woff');
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ SemiBold.woff') format('woff');
     }
 
  @font-face {
     font-family: 'Okta Neue Light Italic';
-    src: local('Okta Neue Light Italic'), url('Groteskly Yours  Okta Neue Light Italic.woff') format('woff');
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Light\ Italic.woff') format('woff');
     }
+
+@font-face {
+    font-family: 'NewYork';
+    src: url('../fonts/NewYork.otf') format('otf');
+    }
+    
 
     h1 {
         font-size: 150px;
