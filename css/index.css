@@ -183,6 +183,7 @@ button:hover {
 body {
     font-weight: 100;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 #page-view {
